@@ -16,7 +16,7 @@ public class ProfissionalExternoServico {
 
     private final RestTemplate restTemplate;
 
-    @Value("${profissionais.api.url:http://localhost:8081/api/profissionais}")
+    @Value("${profissionais.api.url")
     private String profissionaisApiUrl;
 
     public ProfissionalExternoServico() {
